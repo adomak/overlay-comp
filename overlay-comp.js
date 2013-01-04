@@ -76,7 +76,7 @@
 					this.params[pair[0]] = value;
 				}
 			}
-			if (params.comp) {
+			if (this.params.comp) {
 				this.params.comp = this.params.comp.replace(/ /g, '%20');			
 			}
 		},
