@@ -26,7 +26,7 @@
 			}, 500);
 
 		},
-		spacebar: function() {
+		spacebar: function(e) {
 			e = e || window.event;
 			var key = e.keyCode || e.which;
 			if (key == 32 && e.shiftKey){
