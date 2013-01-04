@@ -20,8 +20,8 @@
 			setInterval(function() {
 				if (this.prev_hash != window.location.hash) {
 					OverlayComp.get_params();
-					this.toggle();
-					this.prev_hash = window.location.hash;
+					OverlayComp.toggle();
+					OverlayComp.prev_hash = window.location.hash;
 				}				
 			}, 500);
 
