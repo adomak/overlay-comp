@@ -19,7 +19,7 @@
 
 			setInterval(function() {
 				if (this.prev_hash != window.location.hash) {
-					this.get_params();
+					OverlayComp.get_params();
 					this.toggle();
 					this.prev_hash = window.location.hash;
 				}				
