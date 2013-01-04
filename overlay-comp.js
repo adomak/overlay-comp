@@ -54,7 +54,8 @@ var params = { //defaults
 	interval:10,
 	step:0.1,
 	"z-index":100,
-	when:-1
+	when:-1,
+	"pointer-events": 'none'
 };
 
 
